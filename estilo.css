@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Caacupe One", sans-serif;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #ffffff, #e5e7eb, #dbeafe);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.painel {
+    height: 500px;
+    font-size: 20px;
+    width: 66%;
+    background: white;
+    margin-top: 30px;
+    margin-left: 17%;
+    margin-right: 17%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+
+}
+
+headline h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+headline h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto auto;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 30px;
+    object-fit: cover;
+
+    /* width: 600px;
+    padding: 20px; */
+
+}
+
+.foto img {
+    border: 3px solid #000128;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    /* object-fit: cover; */
+
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+    gap: 300px;
+    padding-top: 30px;
+
+}
+
+.btn button {
+    padding: 13px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: #000128;
+
+}
+
+#sim {
+    position: absolute;
+
+    bottom: -3px;
+    left: 380px;
+}
+
+#nao {
+    position: absolute;
+}
+
+
+#mensagem {
+    display: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 30%;
+    height: 100px;
+    padding-top: 60px;
+    width: 500px;
+    background: #000128;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#mensagem h2 {
+    color: white;
+}
+
+#video {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #030460;
+    color: white;
+    cursor: pointer;
+}
